@@ -1,12 +1,12 @@
-input = "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"
-output = ""
+inputDna = "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"
+rna = ""
 
-for i in input:
+for i in inputDna:
     # print("i = ", i)
     if i == "T":
-        output += "U"
+        rna += "U"
     else:
-        output += i
+        rna += i
 
-print(input)
-print(output)
+print(inputDna)
+print(rna)
