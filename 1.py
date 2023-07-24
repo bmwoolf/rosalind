@@ -7,9 +7,6 @@ obj = {
     "G": 0
 }
 
-print(input)
-print(type(input))
-
 for i in input:
     if i in obj:
         obj[i] += 1
