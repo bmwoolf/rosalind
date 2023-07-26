@@ -1,4 +1,6 @@
 # translate RNA to amino acids, which all proteins are built on
+# time complexity: O(N)
+
 RNA_CODON_TABLE = {
     'UUU': 'F', 'CUU': 'L', 'AUU': 'I', 'GUU': 'V',
     'UUC': 'F', 'CUC': 'L', 'AUC': 'I', 'GUC': 'V',
